@@ -9,7 +9,7 @@ import torch
 import torch.nn.functional as F
 from typing import Dict, List
 from config_sr import TrainingConfig
-from .models import FNO1d
+from ..models import FNO1d
 
 
 class Trainer:

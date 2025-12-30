@@ -27,7 +27,7 @@
 
 import numpy as np
 from typing import Tuple
-from .base import PDESolver
+from base import PDESolver
 
 class WaveSolver(PDESolver):
     """Solver for wave equation: u_tt = c^2 u_xx"""

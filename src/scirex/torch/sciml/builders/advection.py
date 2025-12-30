@@ -27,7 +27,7 @@
 
 import numpy as np
 from typing import Tuple
-from .base import PDESolver
+from base import PDESolver
 
 class AdvectionSolver(PDESolver):
     """Solver for advection equation: u_t + c * u_x = 0"""

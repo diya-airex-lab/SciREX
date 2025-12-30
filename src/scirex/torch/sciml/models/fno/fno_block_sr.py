@@ -28,8 +28,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from .spectral_conv import SpectralConv1d
-
+from .spectral_conv_sr import SpectralConv1d
 
 class FNOBlock1d(nn.Module):
     """

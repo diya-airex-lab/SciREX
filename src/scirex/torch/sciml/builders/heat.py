@@ -27,7 +27,7 @@
 
 import numpy as np
 from typing import Tuple
-from .base import PDESolver
+from base import PDESolver
 
 class HeatSolver(PDESolver):
     """Solver for heat equation: u_t = alpha * u_xx"""
