@@ -28,7 +28,7 @@
 import torch
 import numpy as np
 from typing import Tuple
-from ..config import DataConfig
+from ..config_sr import DataConfig
 from ..builders import WaveSolver, HeatSolver, AdvectionSolver
 
 class DataGenerator:
